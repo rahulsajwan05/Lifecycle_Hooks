@@ -1,4 +1,6 @@
 <p>parent-on-change works!</p>
 
 <button (click)="update()">update</button>
-<app-on-changes [userName]="userName"></app-on-changes>
+<app-on-changes [userName]="userName">
+    <div #contentWrapper>foo</div> <!-- <== Add this -->
+</app-on-changes>

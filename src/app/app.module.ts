@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OnChangesComponent } from './Shared/child-on-changes/on-changes.component';
 import { ParentOnChangeComponent } from './parent-on-change/parent-on-change.component';
+import { PercentagepipePipe } from './percentagepipe.pipe';
+import { PipeComponent } from './pipe/pipe/pipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OnChangesComponent,
-    ParentOnChangeComponent
+    ParentOnChangeComponent,
+    PercentagepipePipe,
+    PipeComponent
   ],
   imports: [
     BrowserModule,
