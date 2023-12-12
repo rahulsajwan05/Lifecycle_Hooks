@@ -7,6 +7,8 @@ import { OnChangesComponent } from './Shared/child-on-changes/on-changes.compone
 import { ParentOnChangeComponent } from './parent-on-change/parent-on-change.component';
 import { PercentagepipePipe } from './percentagepipe.pipe';
 import { PipeComponent } from './pipe/pipe/pipe.component';
+import { ObserComponent } from './obser/obser.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { PipeComponent } from './pipe/pipe/pipe.component';
     OnChangesComponent,
     ParentOnChangeComponent,
     PercentagepipePipe,
-    PipeComponent
+    PipeComponent,
+    ObserComponent
   ],
   imports: [
     BrowserModule,
