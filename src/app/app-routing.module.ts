@@ -7,7 +7,7 @@ import { ObserComponent } from './obser/obser.component';
 const routes: Routes = [
   // {path:'',component:PipeComponent}
   // {path:'',component:ParentOnChangeComponent}
-  {path:'',component:ObserComponent}
+  // {path:'',component:ObserComponent}
 ];
 
 @NgModule({

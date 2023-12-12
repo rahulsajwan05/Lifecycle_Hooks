@@ -8,6 +8,9 @@ import { ParentOnChangeComponent } from './parent-on-change/parent-on-change.com
 import { PercentagepipePipe } from './percentagepipe.pipe';
 import { PipeComponent } from './pipe/pipe/pipe.component';
 import { ObserComponent } from './obser/obser.component';
+import { NewTaskComponent } from './new-task/new-task.component';
+import { ShowTaskComponent } from './show-task/show-task.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,11 +20,14 @@ import { ObserComponent } from './obser/obser.component';
     ParentOnChangeComponent,
     PercentagepipePipe,
     PipeComponent,
-    ObserComponent
+    ObserComponent,
+    NewTaskComponent,
+    ShowTaskComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
